@@ -1,0 +1,64 @@
+.footer-category {
+    display: flex;
+    font-size: 10px;
+    width: 800px;
+    margin: 200px auto 0px auto;
+    color: rgb(92, 45, 11);
+}
+
+.footer-category-inner {
+    width: 160px;
+}
+
+.look-for-recipe, .write-recipe, .footer-menu, .smart-kitchen-service, .recommended, .footer-premium-service, .your-page {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.footer-category-sub-title {
+    text-decoration: underline;
+    padding: 4px;
+}
+
+.footer-menu, .footer-premium-service {
+    padding: 16px 4px 4px 4px;
+}
+
+.border-soild {
+    height: 1px;
+    width: 800px;
+    background-color: rgb(180, 175, 175);
+    margin: 32px auto;
+}
+
+.footer-meta {
+    font-size: 10px;
+    color: rgb(92, 45, 11);
+    width: 800px;
+    margin: 0 auto 32px;
+}
+
+.footer-meta-inner {
+    display: flex;
+}
+
+.footer-meta-title {
+    font-weight: bold;
+}
+
+.footer-meta-sub {
+    display: flex;
+}
+
+.footer-meta-sub-title {
+    padding: 8px 2px;
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 8px;
+    width: 800px;
+    margin: 0 auto;
+    color: rgb(92, 45, 11);
+}

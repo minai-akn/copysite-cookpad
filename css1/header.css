@@ -1,0 +1,44 @@
+.header-container-bar {
+    background-color: white;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.header-container-bar-inner {
+    display: flex;
+    width: 880px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.service-list {
+    color: rgb(99, 69, 43);
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+
+.premium-service {
+    color: chocolate;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+
+.user-entry {
+    color: rgb(99, 69, 43);
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+
+.login {
+    color: rgb(99, 69, 43);
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px 8px;
+}

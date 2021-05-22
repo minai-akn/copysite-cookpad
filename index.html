@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>料理レシピNo.1/料理レシピ見せるなら cookpad</title>
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/header.css">
+    <link rel="stylesheet" href="css1/main.css">
+    <link rel="stylesheet" href="css1/footer.css">
+</head>
+<body>
+    <header>
+        <div class="header-container-bar">
+            <div class="header-container-bar-inner">
+                <a class="service-list" href="">サービス一覧</a>
+                <div class="header-container-right">
+                    <a class="premium-service" href="">プレミアムサービス</a>
+                    <a class="user-entry" href="">ユーザー登録(無料)</a>
+                    <a class="login" href="">ログイン</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="header-container">
+            <div class="header-container-logo">
+                <img class="header-logoimg" src="https://assets.cpcdn.com/assets/extensions/valentine_decoration/logo_pc.png?3fcd49db8e26e540857e39a2fe0c7495472e36be26fb755b7fd6371e71f11b76">
+            </div>
+            <div class="header-container-search">
+                <form id="form1" action="">
+                    <input id="sbox"  id="s" name="s" type="text" placeholder="料理名・材料名" />
+                    <input id="sbtn" type="submit" value="検索" />
+                </form>
+            </div>
+            <a class="myfolder" href="">
+                <!--?xml version="1.0" encoding="utf-8"?-->
+                <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+                <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="width: 28px; height: 28px; opacity: 1;" xml:space="preserve">
+                    <style type="text/css">
+                       .st0{fill:#4B4B4B;}
+                    </style>
+                    <g>
+                        <path class="st0" d="M465.929,121.035H249.246c-25.444,0-46.071-20.627-46.071-46.071v-3.644c0-25.444-20.627-46.071-46.071-46.071
+                            H46.071C20.627,25.25,0,45.877,0,71.321v49.714v49.342v270.302c0,25.444,20.627,46.071,46.071,46.071h419.858
+                            c25.444,0,46.071-20.627,46.071-46.071V167.107C512,141.663,491.373,121.035,465.929,121.035z" style="fill: rgb(170, 136, 94);">
+                        </path>
+                    </g>
+                </svg>
+                <p>MYフォルダ</p>
+            </a>
+            <a href="">
+                <div class="recipe-write">
+                    <div class="recipi-write-icon">
+                       <!--?xml version="1.0" encoding="utf-8"?-->
+                       <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+                        <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="width: 16px; height: 16px;" xml:space="preserve">
+                            <style type="text/css">
+                               .st0{fill:#4B4B4B;}
+                            </style>
+                            <g>
+                                <polygon class="st0" points="374.107,448.835 34.01,448.835 34.01,194.102 164.947,194.102 164.947,63.165 374.107,63.165 
+                                    374.107,96.698 408.117,64.049 408.117,29.155 164.947,29.155 34.01,160.092 0,194.102 0,482.845 408.117,482.845 408.117,282.596 
+                                    374.107,318.034 	" style="fill: rgb(255, 255, 255);"></polygon>
+                                <path class="st0" d="M508.609,118.774l-51.325-51.325c-4.521-4.522-11.852-4.522-16.372,0L224.216,275.561
+                                    c-1.344,1.344-2.336,2.998-2.889,4.815l-26.21,86.117c-2.697,8.861,5.586,17.144,14.447,14.447l88.886-27.052l210.159-218.741
+                                    C513.13,130.626,513.13,123.295,508.609,118.774z M243.986,349.323l-16.877-18.447l11.698-38.447l29.139,15.678l15.682,29.145
+                                    L243.986,349.323z M476.036,110.577L291.414,296.372l-11.728-11.728l185.804-184.631l10.547,10.546
+                                    C476.036,110.567,476.036,110.571,476.036,110.577z" style="fill: rgb(255, 255, 255);"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="recipi-write-text">
+                       <p>レシピを書く</p>
+                    </div>
+                </div>    
+            </a>
+        </div>
+        <div class="menuber">
+            <div class="left-manuber">
+                <div class="main-menubar">
+                    <div class="contents-left">
+                        <div class="contents-Item-First">
+                            <h1 class="contents-Item-FirstTitle">レシピ関連サービス</h1>
+                            <p class="FirstTitle-text">みんなのレシピ</p>
+                            <p class="FirstTitle-text">有名人のレシピ</p>
+                            <p class="FirstTitle-text">献立</p>
+                            <p class="FirstTitle-text">料理動画</p>
+                            <p class="FirstTitle-text">話題のキッチン</p>
+                        </div>
+                        <div class="contents-Item-Second">
+                            <h1 class="contents-Item-SecondTitle">プレミアムサービス</h1>
+                            <p class="SecondTitle-text">人気順検索</p>
+                            <p class="SecondTitle-text">レシピランキング</p>
+                            <p class="SecondTitle-text">殿堂入りレシピ</p>
+                            <p class="SecondTitle-text">専門家厳選レシピ</p>
+                            <p class="SecondTitle-text">プレミアム献立</p>
+                        </div>
+                        <div class="contents-Item-Third">
+                            <h1 class="contents-Item-ThirdTitle">生活関連サービス</h1>
+                            <p class="ThirdTitle-text">料理ニュース</p>
+                        </div>
+                    </div>
+                    <div class="contents-right">
+                        <div class="contents-Recipe-First">
+                            <img src="https://img.cpcdn.com/recipes/4231861/447x251c/513e7350c335416fab2c63880d8e8a55?u=4274539&p=1481470190" 
+                            class="picture1">
+                            <div class="contents-Recipe-FirstRow">
+                                <h2 class="recommend-caption">1月26日の<br>おすすめ<br></h2>
+                                <h3 class="recommend-text">身体ホカホカ☆塩ちゃんこ鍋</h3>
+                            </div>
+                        </div>
+                        <div class="contents-Recipe-Second">
+                            <h1 class="information">クックパットからのお知らせ</h1>
+                            <img src="https://img.cpcdn.com/help_article_images/873/560/5353e03b045c4724b375035ef9958769?p=1610516095" 
+                            class="picture2">
+                        </div>
+                        <div class="contents-Recipe-Third">
+                            <h1 class=news>ニュース</h1>
+                            <div class="contents-Recipe-ThirdRow">
+                                <div class="news-Item">
+                                    <img src="https://img.cpcdn.com/news_articles/39615/100x100c/ff3aac83be0acfed19f41091dd0a891c" 
+                                    class="picture3">
+                                </div>
+                                <div class="news-Item">                                
+                                    <h4 class="news-Item-Title">「ベイクド豆腐」でマンネリ打破</h4>
+                                    <p class="news-Item-Text">ヘルシー、節約……でも、それだけじゃない！身近な食材「お豆腐」の魅力はまだまだあるんです。</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="news-Item-List">
+                                    <ul>
+                                        <li class="news-Item-ListChildrem"><span>▶</span>冷凍しておくと◎！ミートボール</li>
+                                        <li class="news-Item-ListChildrem"><span>▶</span>10分でOK！「手羽先」おかず</li>                                
+                                    </ul>
+                                    <ul>
+                                        <li class="news-Item-ListChildrem"><span>▶</span>材料3つでチーズケーキ</li>
+                                        <li class="news-Item-ListChildrem"><span>▶</span>「長ねぎ×鶏むね肉」のおかず</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <p class="recipe-title">レシピ</p>
+                    <div class="main-recipe">
+                        <div class="main-recipe-ranking">
+                            <p class="daily-access-title">デイリーアクセス数ランキング</p>
+                            <div class="ranking-no123">
+                                <div class="ranking-no1">
+                                    <img class="ranking-no1-pic" src="https://video.kurashiru.com/production/videos/1fc4d291-dc5f-410a-be66-064706e47486/compressed_thumbnail_square_normal.jpg?1601022427">
+                                </div>
+                                <div class="ranking-right">
+                                    <div class="ranking-no2">
+                                        <img class="ranking-no2-pic" src="https://video.kurashiru.com/production/videos/386ba630-d66c-46ac-9aaf-c2a198412e3e/compressed_thumbnail_square_normal.jpg?1537257223">
+                                    </div>
+                                    <div class="ranking-no3">
+                                        <img class="ranking-no3-pic" src="https://recipe.r10s.jp/recipe-space/d/strg/ctrl/3/fd7c0350975fc6c0abd074fe67e7bc3e54b14585.76.2.3.2.jpg?interpolation=lanczos-none&fit=around|716:716&crop=716:716;*,*">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="popular-recipe-20">みんなが見た人気のレシピ20品</p>
+                        </div>
+                        <div class="main-recipe-topic">
+                            <div class="topic-recipe">
+                                <p class="topic-recipe-title">話題のレシピ</p>
+                                <p class="topic-recipe-subtitle">つくれぽ10人おめでとう</p>
+                            </div>
+                            <div class="topic-recipe-menu">
+                                <div class="topic-recipe-menu-left">
+                                    <img class="topic-recipe-menu-left-pic" src="https://cdn.macaro-ni.jp/image/summary/92/92408/vZIo5wJC9a8gNg5VBSUfVQ3Va1xlwPwncmOR0FTm.jpeg?p=medium_wp">
+                                    <p class="topic-recipe-menu-left-text">母の味〜♪白菜と豚肉と芋のコトコト煮</p>
+                                </div>
+                                <div class="topic-recipe-menu-center">
+                                    <img class="topic-recipe-menu-center-pic" src="https://cdn.macaro-ni.jp/image/summary/92/92408/vZIo5wJC9a8gNg5VBSUfVQ3Va1xlwPwncmOR0FTm.jpeg?p=medium_wp">
+                                    <p class="topic-recipe-menu-center-text">箸休めに、常備菜に！さっぱ酢ごぼう</p>
+                                </div>
+                                <div class="topic-recipe-menu-right">
+                                    <img class="topic-recipe-menu-right-pic" src="https://img.cpcdn.com/recipes/2423183/840x1461s/6b9987643208d77ff74249d34d014bd2?u=4971430&p=1385897429">
+                                    <p class="topic-recipe-menu-right-text">じゃがいものしそバター炒め</p>
+                                </div>
+                            </div>
+                            <p class="topic-recipe-seemore">もっと見る</p>
+                        </div>
+                    </div>
+                    <p class="best-seller-recipe">殿堂入りレシピ</p>
+                    <div class="best-seller-123">
+                        <p class="best-seller-123-orange">つくれぽ1000人以上！</p>
+                        <p class="best-seller-123-black"> 殿堂入り おもてなし 123品</p>
+                        <img class="best-seller-123-pic-left" src="https://cdn.sbfoods.co.jp/recipes/04046_l.jpg">
+                        <img class="best-seller-123-pic-center" src="https://img.cpcdn.com/recipes/3743960/840x1461s/4c3fa555b8e8fef66fb27857041fc6ec?u=21226&p=1457737398">
+                        <img class="best-seller-123-pic-right" src="https://img.cpcdn.com/recipes/1411888/840x1461s/d1b30eed7fa32953959d897e36c12554?u=1843442&p=1455798557">
+                    </div>
+                    <p class="recipe-category">レシピカテゴリ</p>
+                    <div class="recipe-category-list">
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">野菜のおかず</p>
+                            <ul>
+                                <li><span>▶</span>スナップえんどう</li>
+                                <li><span>▶</span>長芋・山芋</li>
+                                <li><span>▶</span>白菜</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">お肉のおかず</p>
+                            <ul>
+                                <li><span>▶</span>豚肉</li>
+                                <li><span>▶</span>牛肉</li>
+                                <li><span>▶</span>鶏肉</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">魚介のおかず</p>
+                            <ul>
+                                <li><span>▶</span>さわら</li>
+                                <li><span>▶</span>はんぺん</li>
+                                <li><span>▶</span>さば</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">ごはんもの</p>
+                            <ul>
+                                <li><span>▶</span>どんぶりもの</li>
+                                <li><span>▶</span>ドリア</li>
+                                <li><span>▶</span>おにぎり</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">パスタ・グラタン</p>
+                            <ul>
+                                <li><span>▶</span>豆腐グラタン</li>
+                                <li><span>▶</span>ジェノベーゼ</li>
+                                <li><span>▶</span>ニョッキ</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">麺</p>
+                            <ul>
+                                <li><span>▶</span>うどん</li>
+                                <li><span>▶</span>にゅうめん</li>
+                                <li><span>▶</span>アレンジうどん</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">サラダ</p>
+                            <ul>
+                                <li><span>▶</span>和風のサラダ</li>
+                                <li><span>▶</span>洋風のサラダ</li>
+                                <li><span>▶</span>生春巻き</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">スープ・汁物</p>
+                            <ul>
+                                <li><span>▶</span>トマトスープ</li>
+                                <li><span>▶</span>お味噌汁</li>
+                                <li><span>▶</span>コンソメスープ</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">お弁当</p>
+                            <ul>
+                                <li><span>▶</span>作り置き・冷凍でき…</li>
+                                <li><span>▶</span>お弁当のメインおかず</li>
+                                <li><span>▶</span>子どもが喜ぶ♪かわ…</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">おもてなし料理</p>
+                            <ul>
+                                <li><span>▶</span>大皿・メイン料理</li>
+                                <li><span>▶</span>春！おもてなし料理</li>
+                                <li><span>▶</span>子どものパーティ</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">お菓子</p>
+                            <ul>
+                                <li><span>▶</span>カステラ</li>
+                                <li><span>▶</span>チーズケーキ</li>
+                                <li><span>▶</span>パウンドケーキ</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-category-list-box">
+                            <p class="recipe-category-list-title">パン</p>
+                            <ul>
+                                <li><span>▶</span>サンドイッチ</li>
+                                <li><span>▶</span>炊飯器を使ったパン</li>
+                                <li><span>▶</span>ホットケーキミック…</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="recipe-category-seemore">もっと見る</p>
+                    <div class="expert-recipe">
+                        <div class="expert-recipe-category">
+                            <p class="expert-recipe-title">専門家厳選レシピ</p>
+                            <div class="expert-recipe-title-box">
+                                <p class="expert-recipe-title-sub">美容・ダイエット</p>
+                                <p class="expert-recipe-title-sub">働くママ</p>
+                                <p class="expert-recipe-title-sub">料理上手</p>
+                                <p class="expert-recipe-title-sub">ベビー＆ママ</p>
+                                <p class="expert-recipe-title-sub">スポーツ・体づくり</p>
+                                <p class="expert-recipe-title-sub">キッズ</p>
+                                <p class="expert-recipe-title-sub">からだケア</p>
+                                <p class="expert-recipe-title-sub">男の料理</p>
+                                <p class="expert-recipe-title-sub">パパお疲れ様</p>
+                            </div>
+                        </div>
+                        <div class="celebrity-recipe">
+                            <p class="celebrity-recipe-title">有名人のレシピ</p>
+                            <div class="yoshida-recipe">
+                                <img class="yoshida-recipe-pic" src="http://www.daisyo.co.jp/whatsnew/new_img/smp/menu/yaruki_b/img/57.jpg">
+                                <div class="yoshida-text">
+                                    <p class="yoshida-akiyo">吉田明世</p>
+                                    <p class="yoshida-recipe-title">吉田明世のレシピ</p>
+                                </div>
+                            </div>
+                            <div class="tamaru-recipe">
+                                <img class="tamaru-recipe-pic" src="https://www.kikkoman.co.jp/homecook/search/recipe/img/00000795.jpg">
+                                <div class="tamaru-text">
+                                    <p class="tamaru-maki">田丸麻紀</p>
+                                    <p class="tamaru-recipe-title">田丸麻紀のレシピ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topic-kitchen">
+                        <div class="topic-kitchen-title">
+                            <p class="topic-kitchen-title-main">話題のキッチン</p>
+                            <p class="topic-kitchen-title-sub">お気に入りのキッチンを探そう！</p>
+                        </div>
+                        <div class="account-list">
+                            <div class="account-name">
+                                <img class="account-pic" src="https://cdn2.aprico-media.com/production/imgs/images/000/008/511/original.jpg?1505866639">
+                                <p>藤井21</p>
+                            </div>
+                            <div class="account-name">
+                                <img class="account-pic" src="https://cdn2.aprico-media.com/production/imgs/images/000/008/511/original.jpg?1505866639">
+                                <p>せつぶんひじき</p>
+                            </div>
+                            <div class="account-name">
+                                <img class="account-pic" src="https://cdn2.aprico-media.com/production/imgs/images/000/008/511/original.jpg?1505866639">
+                                <p>志木市（埼玉県）</p>
+                            </div>
+                            <div class="account-name">
+                                <img class="account-pic" src="https://cdn2.aprico-media.com/production/imgs/images/000/008/511/original.jpg?1505866639">
+                                <p>CAFE703</p>
+                            </div>
+                            <div class="account-name">
+                                <img class="account-pic" src="https://cdn2.aprico-media.com/production/imgs/images/000/008/511/original.jpg?1505866639">
+                                <p>ペルースーパーフード</p>
+                            </div>
+                            <div class="account-name">
+                                <img class="account-pic" src="https://cdn2.aprico-media.com/production/imgs/images/000/008/511/original.jpg?1505866639">
+                                <p>京都府</p>
+                            </div>
+                            <div class="account-name">
+                                <img class="account-pic" src="https://cdn2.aprico-media.com/production/imgs/images/000/008/511/original.jpg?1505866639">
+                                <p>砺波市</p>
+                            </div>
+                        </div>
+                        <div class="topic-kitchen-menu">
+                            <p class="topic-kitchen-menu-title"><span>▶</span>10分弁当★鶏むね肉の柚子胡椒マヨ焼</p>
+                            <p class="topic-kitchen-menu-title"><span>▶</span>カラフルむすびと具だくさん豆乳スープ</p>
+                            <p class="topic-kitchen-menu-title"><span>▶</span>胸肉1枚！アスパラつくねの照り焼き</p>
+                            <p class="topic-kitchen-menu-title"><span>▶</span>鶏皮と明日菜のお浸し</p>
+                            <p class="topic-kitchen-menu-title"><span>▶</span>鮭のこくうまバター醤油炊き込みご飯</p>
+                            <p class="topic-kitchen-menu-title"><span>▶</span>〜福島発〜腹くっちーモーモーおこわ</p>
+                        </div>
+                        <p class="topic-kitchen-seemore">もっと見る</p>
+                    </div>
+                </div>
+                <div class="menu">
+                    <p class="menu-title">献立</p>
+                    <div class="menu-left-right">
+                        <div class="menu-left">
+                            <p class="everyone-menu">みんなの献立</p>
+                            <div class="everyone-menu-introduction">
+                                <div>
+                                    <img class="everyone-menu-pic" src="https://production-orp.s3.amazonaws.com/uploads/recipes/image/0000109179/20131003150536_w300hf.jpg">
+                                </div>
+                                <div>
+                                    <p class="everyone-menu-title">オッサンのブランチ☆博多へ！！☆</p>
+                                    <p class="everyone-menu-name">イベ長</p>
+                                </div>
+                            </div>
+                            <div class="meal">
+                                <p class="breakfast">朝ごはん</p>
+                                <p class="lunch">昼ごはん</p>
+                                <p class="dinner">夜ごはん</p>
+                            </div>
+                        </div>
+                        <div class="menu-right">
+                            <div class="premium-menu">
+                                <p class="premium-menu-title">プレミアム献立</p>
+                                <p class="premium-menu-sub">5月3日の献立</p>
+                            </div>
+                            <div class="premium-menu-introduction">
+                                <div>
+                                    <img class="premium-menu-pic" src="https://img.cpcdn.com/recipes/_o1f555354/480x480cq30/5546a94e67da9789ab213130546356b3">
+                                </div>
+                                <div>
+                                    <p class="premium-menu-theme">今日のテーマ「ほっとする味」</p>
+                                    <p class="premium-menu-title-green">レンジで簡単☆豚こまと玉ねぎの甘辛煮
+                                    <span class="premium-menu-add">+2品</span></p>
+                                </div>
+                            </div>
+                            <div class="premium-menu-category">
+                                <div>
+                                    <p class="tsukurepo">つくれぽ</p>
+                                    <div>
+                                        <p class="tsukurepo-number-of-people">463人</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="cooking">調理時間</p>
+                                    <div>
+                                        <p class="cookking-time">20分</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="calorie">カロリー</p>
+                                    <div>
+                                        <p class="calorie-count">735kcal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bic-news">
+                    <p class="news-title">ニュース</p>
+                    <div class="bic-news-category">
+                        <div class="new-access-ranking">
+                            <p class="new-access-ranking-title">最新アクセスランキング</p>
+                            <div class="new-access-ranking-1-5">
+                                <div class="new-access-ranking-no1">
+                                    <img class="new-access-ranking-1-img" src="https://img.cpcdn.com/news_articles/40932/m/3298ce9bdf42b62dbf2a186573e413f9.jpg?1619155173">
+                                    <p class="new-access-ranking-1">副菜に便利！きゅうりの5分漬け</p>
+                                </div>
+                                <div>
+                                    <p class="new-access-ranking-2-5">2位 夕食に最適！鶏むね10分おかず</p>
+                                    <p class="new-access-ranking-2-5">3位 バナナを使った「簡単おやつ」</p>
+                                    <p class="new-access-ranking-2-5">4位 おつまみ＆お弁当に使えるレシピ</p>
+                                    <p class="new-access-ranking-2-5">5位 トースターで「シェパードパイ」</p>
+                                </div>
+                            </div>
+                            <p class="new-access-ranking-seemore">もっと見る</p>
+                        </div>
+                        <div class="weekly-access-ranking">
+                            <p class="weekly-access-ranking-title">週間アクセスランキング</p>
+                            <div class="weekly-access-ranking-1-5">
+                                <div class="weekly-access-ranking-no1">
+                                    <img class="weekly-access-ranking-1-img" src="https://img.cpcdn.com/news_articles/40924/m/352affb5c82bddd5a4b363850d6df0a3.jpg?1619181719">
+                                    <p class="weekly-access-ranking-1">一挙紹介！弁当作りに役立つワザ</p>
+                                </div>
+                                <div>
+                                    <p class="weekly-access-ranking-2-5">2位 ツナ缶の油切りをあのアイテムで</p>
+                                    <p class="weekly-access-ranking-2-5">3位 副菜に便利！きゅうりの5分漬け</p>
+                                    <p class="weekly-access-ranking-2-5">4位 卵焼きは「〇〇切り」で豪華に！</p>
+                                    <p class="weekly-access-ranking-2-5">5位 バズった飲み物！ミントミルク</p>
+                                </div>
+                            </div>
+                            <p class="weekly-access-ranking-seemore">もっと見る</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="anytime-anywhere">
+                    <p class="anytime-anywhere-title">いつでもどこでも使える</p>
+                    <div class="anytime-anywhere-left-right">
+                        <div class="anytime-anywhere-left">
+                            <img class="anytime-anywhere-img" src="https://assets.cpcdn.com/assets/themes/top/pc_top/ex_smart_phone_min.png?d9d17a41227bc0e8762b59bf78879e291f2057dc2012a07c8e9ce09b2932f9a1">
+                        </div>
+                        <div class="anytime-anywhere-right">
+                            <p>パソコンだけでなく、iPhoneやAndroidなどからもクックパッドをご利用いただけます。</p>
+                            <p>キッチンはもちろん、リビングや外出先など様々な場所で毎日の料理をお楽しみください！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-menuber-container">
+                <div class="right-menubar">
+                    <div>
+                        <img class="advertising1" src="">
+                    </div>
+                    <div class="every-weeks-recommended">
+                        <div class="every-weeks-recommended-beige">
+                            <p class="every-weeks-recommended-title">毎週更新！おすすめ特集</p>
+                            <p class="list-here">一覧はこちら</p>
+                        </div>
+                        <div class="every-weeks-recommended-list">
+                            <p>卵で作る◎かんたん新定番レシピ</p>
+                            <p>女性に嬉しい◎ヘルシー中華☆</p>
+                            <p>レンチンで具材で！やみつき油そば</p>
+                            <p>はじめてでも大丈夫！釣りレシピ</p>
+                            <p>ランチにおすすめ！ヘルシーご飯</p>
+                            <P>箸が止まらない◎激ウマおかず</P>
+                            <P>初めてでも大丈夫！お魚レシピ</P>
+                        </div>
+                        <p class="every-weeks-recommended-seemore"><span>▶︎</span>もっと見る</p>
+                    </div>
+                    <div class="manufaturer-recipe">
+                        <div class="manufaturer-recipe-beige">
+                            <p class="manufaturer-recipe-title">メーカーこだわりレシピ</p>
+                            <p class="list-here">一覧はこちら</p>
+                        </div>
+                        <div class="manufaturer-recipe-menu">
+                            <img class="manufaturer-recipe-img" src="https://img.cpcdn.com/recipes/4921434/50x50c/6e9f982205d0c100faf9e31fe8849781?u=4454952&p=1517808603" alt="" >
+                            <div class="manufaturer-recipe-pick-up">
+                                <p class="manufaturer-recipe-pick-up-title">こどもも食べられる！チーズタッカルビ</p>
+                                <p class="manufaturer-recipe-account-name">by<span class="marukome">マルコメレシピ</span></p>
+                            </div>
+                        </div>
+                        <p class="manufaturer-recipe-menu-seemore"><span>▶</span>もっと見る</p>
+                    </div>
+                    <div>
+                        <img class="advertising2" src="">
+                    </div>
+                    <div class="goiken-box">
+                        <h3 class="goiken-box-title" id="goiken">クックパッドへのご意見をお聞かせください</h3>
+                        <form action="" method="post">
+                            <ul>
+                                <li class="goiken-box-selection">
+                                    <label>
+                                        <input type="radio" name="goiken" value="サービスへのご意見・ご要望" checked>
+                                        サービスへのご意見・ご要望
+                                    </label>
+                                </li>
+                                <li class="goiken-box-selection">
+                                    <label>
+                                        <input type="radio" name="goiken" value="機能の不具合">
+                                        機能の不具合
+                                </label>
+                                </li>
+                                <li class="goiken-box-selection">
+                                    <label>
+                                        <input type="radio" name="goiken" value="レシピやつくれぽで気づいた点の報告">
+                                        レシピやつくれぽで気づいた点の報告
+                                    </label>
+                                </li>
+                                <li class="goiken-box-text">
+                                    <textarea class="goiken-box-white" name="content" id="content" cols="32" rows="5"></textarea>
+                                </li>
+                            </ul>
+                            <p class="goiken-button"><input type="submit" value="クックパッドに意見を送る"></p>
+                        </form>
+                    </div>
+                    <div class="contact-box">
+                        <h3 class="contact-box-title">お困りの方はこちら</h3>
+                        <a href="https://cookpad.com/helps">
+                            <p class="contact-box-button">ヘルプ・お問い合わせ</p>
+                        </a>
+                    </div>
+                    <div class="advertising3"></div>
+                    <div class="advertising4"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-category">
+            <div class="footer-category-inner">
+                <h3 class="look-for-recipe">レシピをさがす</h3>
+                <ul>
+                    <li class="footer-category-sub-title">カテゴリ一覧</li>
+                    <li class="footer-category-sub-title">専門家が選んだ目的別レシピ</li>
+                    <li class="footer-category-sub-title">有名人のレシピ</li>
+                    <li class="footer-category-sub-title">話題のレシピ</li>
+                    <li class="footer-category-sub-title">殿堂入りのレシピ</li>
+                    <li class="footer-category-sub-title">人気の検索キーワード</li>
+                    <li class="footer-category-sub-title">新着レシピ</li>
+                    <li class="footer-category-sub-title">新着つくれぽ</li>
+                    <li class="footer-category-sub-title">ピックアップレシピ</li>
+                    <li class="footer-category-sub-title">デイリーアクセス数ランキング</li>
+                    <li class="footer-category-sub-title">料理動画</li>
+                    <li class="footer-category-sub-title">おすすめ特集[広告]</li>
+                    <li class="footer-category-sub-title">メーカーのこだわりレシピ</li>
+                    <li class="footer-category-sub-title">cookpadLive</li>
+                </ul>
+            </div>
+            <div class="footer-category-inner">
+                <h3 class="write-recipe">レシピを書く</h3>
+                <ul>
+                    <li class="footer-category-sub-title">レシピを書く</li>
+                    <li class="footer-category-sub-title">レシピの書き方について</li>
+                    <li class="footer-category-sub-title">企業・団体キッチンの登録</li>
+                </ul>
+                <h3 class="footer-menu">献立</h3>
+                <ul>
+                    <li class="footer-category-sub-title">みんなの献立</li>
+                    <li class="footer-category-sub-title">プレミアム献立</li>
+                </ul>
+            </div>
+            <div class="footer-category-inner">
+                <h3 class="smart-kitchen-service">スマートキッチンサービス</h3>
+                <ul>
+                    <li class="footer-category-sub-title">OiCy</li>
+                </ul>
+            </div>
+            <div class="footer-category-inner">
+                <h3 class="recommended">おすすめ</h3>
+                <ul>
+                    <li class="footer-category-sub-title">モバイルサービス</li>
+                    <li class="footer-category-sub-title">有名人・団体 公式キッチン</li>
+                    <li class="footer-category-sub-title">クックパッドニュース</li>
+                    <li class="footer-category-sub-title">クックパッドのレシピ本</li>
+                    <li class="footer-category-sub-title">料理の基本</li>
+                    <li class="footer-category-sub-title">クックパッドブログ</li>
+                </ul>
+                <h3 class="footer-premium-service">プレミアムサービス</h3>
+                <ul>
+                    <li class="footer-category-sub-title">プレミアムサービス</li>
+                    <li class="footer-category-sub-title">プレミアムクーポン</li>
+                    <li class="footer-category-sub-title">プレミアムパス</li>
+                </ul>
+            </div>
+            <div class="footer-category-inner">
+                <h3 class="your-page">あなたのページ</h3>
+                <ul>
+                    <li class="footer-category-sub-title">ユーザー登録（無料）</li>
+                    <li class="footer-category-sub-title">ログイン</li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-soild"></div>
+        <div class="footer-meta">
+            <div class="footer-meta-inner">
+                <div class="support">
+                    <p class="footer-meta-title">サポート</p>
+                </div>
+                <div class="footer-meta-sub">
+                    <p class="footer-meta-sub-title">ヘルプ</p>
+                    <p class="footer-meta-sub-title">料理の安心</p>
+                    <p class="footer-meta-sub-title">利用規約等</p>
+                    <p class="footer-meta-sub-title">稼働状況</p>
+                    <p class="footer-meta-sub-title">リンクについて</p>
+                </div>
+            </div>
+            <div class="footer-meta-inner">
+                <div class="corporate-information">
+                    <p class="footer-meta-title">企業情報</p>
+                </div>
+                <div class="footer-meta-sub">
+                    <p class="footer-meta-sub-title">運営会社</p>
+                    <p class="footer-meta-sub-title">情報セキュリティー</p>
+                    <p class="footer-meta-sub-title">プレイバシーポリシー</p>
+                    <p class="footer-meta-sub-title">投資家向け情報</p>
+                    <p class="footer-meta-sub-title">研究者向け情報</p>
+                    <p class="footer-meta-sub-title">広告掲載</p>
+                    <p class="footer-meta-sub-title">採用情報</p>
+                </div>
+            </div>
+            <div class="footer-meta-inner">
+                <div class="japan">
+                    <p class="footer-meta-title">日本</p>
+                </div>
+                <div class="footer-meta-sub">
+                    <p class="footer-meta-sub-title">Español</p>
+                    <p class="footer-meta-sub-title">English</p>
+                    <p class="footer-meta-sub-title">Indonesia</p>
+                    <p class="footer-meta-sub-title">العربية</p>
+                    <p class="footer-meta-sub-title">Việt Nam</p>
+                    <p class="footer-meta-sub-title">ไทย</p>
+                    <p class="footer-meta-sub-title">…</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright© Cookpad Inc. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
+
